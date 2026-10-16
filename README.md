@@ -67,7 +67,7 @@
 | 분야 | 도구 |
 |---|---|
 | 분석 · 통계 | Python (pandas · scikit-learn · statsmodels), R |
-| 데이터 | SQL, 공공데이터 (KOSIS · 한국관광데이터랩 · 소상공인 상권정보) |
+| 데이터 | SQL, 공공데이터
 | 시각화 · 기타 | matplotlib, Orange3, Lovable (AI 기반 앱 제작) |
 
 ---
