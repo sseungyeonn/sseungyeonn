@@ -4,7 +4,7 @@
 
 <a href="mailto:pink120312@gmail.com"><img src="https://img.shields.io/badge/pink120312@gmail.com-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 <a href="mailto:pink6919@naver.com"><img src="https://img.shields.io/badge/pink6919@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Naver Mail"/></a>
-<a href="tel:010-0000-0000"><img src="https://img.shields.io/badge/010--9927--1977-F97316?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"/></a>
+<a href="tel:010-0000-0000"><img src="https://img.shields.io/badge/010--0000--0000-F97316?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik02LjYyIDEwLjc5YTE1LjA1IDE1LjA1IDAgMCAwIDYuNTkgNi41OWwyLjItMi4yYTEgMSAwIDAgMSAxLjAyLS4yNGMxLjEyLjM3IDIuMzMuNTcgMy41Ny41N2ExIDEgMCAwIDEgMSAxVjIwYTEgMSAwIDAgMS0xIDFDMTAuNjEgMjEgMyAxMy4zOSAzIDRhMSAxIDAgMCAxIDEtMWgzLjVhMSAxIDAgMCAxIDEgMWMwIDEuMjUuMiAyLjQ1LjU3IDMuNTdhMSAxIDAgMCAxLS4yNSAxLjAybC0yLjIgMi4yeiIvPjwvc3ZnPg==" alt="Phone"/></a>
 
 </div>
 
