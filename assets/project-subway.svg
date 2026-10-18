@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="휠체어 이용자의 부산 도시철도 환승 거리 분석">
+<rect width="600" height="350" rx="20" fill="#0F1535"/>
+<rect x="0.5" y="0.5" width="599" height="349" rx="20" fill="none" stroke="#1F2A5C"/>
+<text x="36" y="50" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="15" font-weight="600" fill="#A78BFA">2025 대학생 논문경진대회 최우수상</text>
+<text x="34" y="122" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="60" font-weight="800" fill="#E8EDFF">×1.4–2.3</text>
+<text x="36" y="154" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="15" fill="#8B97C7">공식이 실제 환승 거리를 과대 계산 (10개 경로 전부)</text>
+
+<line x1="380.0" y1="105" x2="560.0" y2="105" stroke="#2B3A78" stroke-width="2"/>
+<rect x="428" y="95" width="108" height="20" rx="10" fill="#A78BFA" opacity="0.85"/>
+<circle cx="380.0" cy="105" r="6" fill="#7DD3FC"/>
+<text x="380.0" y="80" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#7DD3FC">실측</text>
+<text x="428" y="138" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8B97C7">1.4</text>
+<text x="536" y="138" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8B97C7">2.3</text>
+<text x="482" y="80" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#A78BFA">공식 예측</text>
+<text x="36" y="222" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="23" font-weight="700" fill="#E8EDFF">휠체어 이용자의 부산 도시철도</text>
+<text x="36" y="254" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="23" font-weight="700" fill="#E8EDFF">환승 거리 분석</text>
+<rect x="36" y="296" width="82" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="77" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">현장 실측</text><rect x="126.0" y="296" width="109" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="180" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">평가지표 설계</text><rect x="243.0" y="296" width="78" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="282" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">회귀분석</text><rect x="329.0" y="296" width="47" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="352" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">PCA</text><rect x="383.8" y="296" width="70" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="419" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">Python</text>
+</svg>
