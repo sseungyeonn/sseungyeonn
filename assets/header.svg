@@ -24,13 +24,15 @@
   .t4b { fill: var(--tag4-bg); } .t4t { fill: var(--tag4-text); }
   .t5b { fill: var(--tag5-bg); } .t5t { fill: var(--tag5-text); }
 
-  .pt { animation: pop .45s ease-out backwards; transform-box: fill-box; transform-origin: center; }
-  .formula { animation: fade .8s ease-out .2s backwards; }
-  .measured { stroke-dasharray: 520; animation: draw 1s ease-in-out 2.3s backwards; }
-  .note { animation: fade .6s ease-out 3.3s backwards; }
-  @keyframes pop { from { opacity:0; transform: scale(.2); } }
-  @keyframes fade { from { opacity:0; } }
-  @keyframes draw { from { stroke-dashoffset: 520; } to { stroke-dashoffset: 0; } }
+   /* ===== 애니메이션: 9초마다 나타났다 사라지기를 반복 (9s를 바꾸면 속도 조절) ===== */
+  .pt { animation: ptLoop 9s ease-out infinite both; transform-box: fill-box; transform-origin: center; }
+  .formula { animation: formulaLoop 9s ease-out infinite both; }
+  .measured { stroke-dasharray: 520; animation: lineLoop 9s ease-in-out infinite both; }
+  .note { animation: noteLoop 9s ease-out infinite both; }
+  @keyframes ptLoop { 0% { opacity:0; transform: scale(.2); } 5%, 68% { opacity:1; transform: scale(1); } 76%, 100% { opacity:0; transform: scale(1); } }
+  @keyframes formulaLoop { 0% { opacity:0; } 8%, 85% { opacity:1; } 95%, 100% { opacity:0; } }
+  @keyframes lineLoop { 0%, 29% { stroke-dashoffset:520; opacity:1; } 40%, 85% { stroke-dashoffset:0; opacity:1; } 95%, 100% { stroke-dashoffset:0; opacity:0; } }
+  @keyframes noteLoop { 0%, 42% { opacity:0; } 47%, 85% { opacity:1; } 95%, 100% { opacity:0; } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
 <rect class="bg" width="1200" height="380" rx="18"/><rect class="border" x="0.5" y="0.5" width="1199" height="379" rx="18"/>
