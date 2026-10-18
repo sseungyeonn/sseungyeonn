@@ -1,16 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" role="img" aria-label="스트릿 믹스테이프: 골목상권 활성화 기획과 AI 프로토타입">
-<rect width="600" height="350" rx="20" fill="#0F1535"/>
-<rect x="0.5" y="0.5" width="599" height="349" rx="20" fill="none" stroke="#1F2A5C"/>
-<text x="36" y="50" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="15" font-weight="600" fill="#7DD3FC">2026 국가데이터처 청년인턴 프로젝트 금상</text>
-<text x="34" y="122" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="60" font-weight="800" fill="#E8EDFF">−22%</text>
-<text x="36" y="154" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="15" fill="#8B97C7">유동인구는 평균 이상인데 점포당 매출은 평균보다 낮음</text>
+<style>
+  /* ================= 색상 설정 (이 부분만 바꾸면 됩니다) ================= */
+  :root {
+    --bg:       #FFFFFF;  /* 카드 배경 */
+    --border:   #E5E7EB;  /* 카드 테두리 */
+    --grid:     #EEF0F4;  /* 그래프 격자 */
+    --axis:     #CBD2DC;  /* 축 · 연결선 */
+    --text:     #111827;  /* 제목 · 본문 글자 */
+    --muted:    #6B7280;  /* 보조 글자 */
+    --accent-1: #2563EB;  /* 파랑: 현장 실측 · 자격증 */
+    --accent-2: #F97316;  /* 주황: 공식 예측 · 수상 */
+    --tag1-bg: #DBEAFE; --tag1-text: #1D4ED8;  /* 태그 1 (파랑) */
+    --tag2-bg: #DCFCE7; --tag2-text: #15803D;  /* 태그 2 (초록) */
+    --tag3-bg: #F3E8FF; --tag3-text: #7E22CE;  /* 태그 3 (보라) */
+    --tag4-bg: #FFEDD5; --tag4-text: #C2410C;  /* 태그 4 (주황) */
+    --tag5-bg: #FCE7F3; --tag5-text: #BE185D;  /* 태그 5 (분홍) */
+  }
+  /* ===================================================================== */
 
-<text x="380" y="78" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">점포당 매출</text>
-<rect x="380" y="88" width="180" height="16" rx="8" fill="none" stroke="#8B97C7" stroke-width="1.5" stroke-dasharray="4 4"/>
-<text x="560" y="124" text-anchor="end" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">평균 100</text>
-<rect x="380" y="88" width="140" height="16" rx="8" fill="#7DD3FC"/>
-<text x="380" y="124" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#7DD3FC">갈마동 78</text>
-<text x="36" y="222" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="23" font-weight="700" fill="#E8EDFF">스트릿 믹스테이프: 골목상권</text>
-<text x="36" y="254" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="23" font-weight="700" fill="#E8EDFF">활성화 기획과 AI 프로토타입</text>
-<rect x="36" y="296" width="82" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="77" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">문제 정의</text><rect x="126.0" y="296" width="92" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="172" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">공공데이터</text><rect x="225.5" y="296" width="82" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="266" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">현장 확인</text><rect x="315.5" y="296" width="96" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="363" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">서비스 기획</text><rect x="419.0" y="296" width="124" height="28" rx="14" fill="none" stroke="#2B3A78"/><text x="481" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" fill="#8B97C7">AI 프로토타이핑</text>
+  .bg { fill: var(--bg); } .border { fill: none; stroke: var(--border); }
+  .grid { stroke: var(--grid); } .axis { stroke: var(--axis); }
+  .t { fill: var(--text); } .m { fill: var(--muted); }
+  .a1 { fill: var(--accent-1); } .a2 { fill: var(--accent-2); }
+  .s1 { stroke: var(--accent-1); } .s2 { stroke: var(--accent-2); } .sm { stroke: var(--muted); }
+  .t1b { fill: var(--tag1-bg); } .t1t { fill: var(--tag1-text); }
+  .t2b { fill: var(--tag2-bg); } .t2t { fill: var(--tag2-text); }
+  .t3b { fill: var(--tag3-bg); } .t3t { fill: var(--tag3-text); }
+  .t4b { fill: var(--tag4-bg); } .t4t { fill: var(--tag4-text); }
+  .t5b { fill: var(--tag5-bg); } .t5t { fill: var(--tag5-text); }
+</style>
+<rect class="bg" width="600" height="350" rx="18"/><rect class="border" x="0.5" y="0.5" width="599" height="349" rx="18"/>
+<text class="a2" x="36" y="50" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="15" font-weight="700">2026 국가데이터처 청년인턴 프로젝트 금상</text>
+<text class="t" x="34" y="122" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="60" font-weight="800">−22%</text>
+<text class="m" x="36" y="154" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="15">유동인구는 평균 이상인데 점포당 매출은 평균보다 낮음</text>
+
+<text class="m" x="380" y="78" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13">점포당 매출</text>
+<rect x="380" y="88" width="180" height="16" rx="8" fill="none" class="sm" stroke-width="1.5" stroke-dasharray="4 4"/>
+<rect class="a1" x="380" y="88" width="140" height="16" rx="8"/>
+<text class="a1" x="380" y="124" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" font-weight="600">갈마동 78</text>
+<text class="m" x="560" y="124" text-anchor="end" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13">평균 100</text>
+<text class="t" x="36" y="222" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="23" font-weight="700">스트릿 믹스테이프: 골목상권</text>
+<text class="t" x="36" y="254" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="23" font-weight="700">활성화 기획과 AI 프로토타입</text>
+<rect class="t1b" x="36" y="296" width="82" height="28" rx="14"/><text class="t1t" x="77" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" font-weight="600">문제 정의</text><rect class="t2b" x="126" y="296" width="92" height="28" rx="14"/><text class="t2t" x="172" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" font-weight="600">공공데이터</text><rect class="t3b" x="226" y="296" width="82" height="28" rx="14"/><text class="t3t" x="266" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" font-weight="600">현장 확인</text><rect class="t4b" x="316" y="296" width="96" height="28" rx="14"/><text class="t4t" x="363" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" font-weight="600">서비스 기획</text><rect class="t5b" x="419" y="296" width="124" height="28" rx="14"/><text class="t5t" x="481" y="315" text-anchor="middle" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" font-size="13" font-weight="600">AI 프로토타이핑</text>
 </svg>

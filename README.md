@@ -2,7 +2,7 @@
 
 <img src="assets/header.svg" width="100%" alt="최승연, 데이터 분석가. 공식과 평균이 말해주지 않는 것을 현장 데이터로 확인합니다."/>
 
-<a href="mailto:pink120312@gmail.com"><img src="https://img.shields.io/badge/pink120312@gmail.com-151D45?style=for-the-badge&logo=gmail&logoColor=7DD3FC" alt="Email"/></a>
+<a href="mailto:pink120312@gmail.com"><img src="https://img.shields.io/badge/pink120312@gmail.com-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
@@ -25,17 +25,37 @@ now          빅데이터분석기사 실기 준비 중 (2026.11 응시)
 
 ## Skills & tools
 
-**Language**<br>
-<img src="https://img.shields.io/badge/Python-151D45?style=for-the-badge&logo=python&logoColor=7DD3FC"/> <img src="https://img.shields.io/badge/R-151D45?style=for-the-badge&logo=r&logoColor=7DD3FC"/> <img src="https://img.shields.io/badge/SQL-151D45?style=for-the-badge&logo=mysql&logoColor=7DD3FC"/>
-
-**Analysis & modeling**<br>
-<img src="https://img.shields.io/badge/pandas-151D45?style=for-the-badge&logo=pandas&logoColor=7DD3FC"/> <img src="https://img.shields.io/badge/scikit--learn-151D45?style=for-the-badge&logo=scikitlearn&logoColor=7DD3FC"/> <img src="https://img.shields.io/badge/statsmodels-151D45?style=for-the-badge"/> <img src="https://img.shields.io/badge/Regression-1F2A5C?style=for-the-badge"/> <img src="https://img.shields.io/badge/PCA-1F2A5C?style=for-the-badge"/> <img src="https://img.shields.io/badge/LSTM-1F2A5C?style=for-the-badge"/> <img src="https://img.shields.io/badge/Transformer-1F2A5C?style=for-the-badge"/>
-
-**Visualization & prototyping**<br>
-<img src="https://img.shields.io/badge/matplotlib-151D45?style=for-the-badge"/> <img src="https://img.shields.io/badge/Orange3-151D45?style=for-the-badge"/> <img src="https://img.shields.io/badge/Lovable_(AI_app_builder)-151D45?style=for-the-badge"/>
-
-**Data**<br>
-KOSIS, 한국관광데이터랩, 소상공인 상권정보 등 공공데이터
+<!-- 뱃지 색 바꾸기: 각 주소의 -3776AB? 처럼 이름 뒤 6자리 색상코드만 바꾸면 됩니다 -->
+<table>
+<tr>
+<th>Languages</th><th>Libraries</th><th>Methods</th><th>Tools & data</th>
+</tr>
+<tr>
+<td valign="top">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/><br>
+<img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"/><br>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</td>
+<td valign="top">
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/><br>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/><br>
+<img src="https://img.shields.io/badge/statsmodels-4051B5?style=flat-square"/><br>
+<img src="https://img.shields.io/badge/matplotlib-11557C?style=flat-square"/>
+</td>
+<td valign="top">
+<img src="https://img.shields.io/badge/회귀분석-10B981?style=flat-square"/><br>
+<img src="https://img.shields.io/badge/PCA-8B5CF6?style=flat-square"/><br>
+<img src="https://img.shields.io/badge/LSTM-EC4899?style=flat-square"/><br>
+<img src="https://img.shields.io/badge/Transformer-F59E0B?style=flat-square"/>
+</td>
+<td valign="top">
+<img src="https://img.shields.io/badge/Orange3-E67E22?style=flat-square"/><br>
+<img src="https://img.shields.io/badge/Lovable_(AI_앱_제작)-E11D48?style=flat-square"/><br>
+<img src="https://img.shields.io/badge/공공데이터-0EA5E9?style=flat-square"/><br>
+<sub>KOSIS · 한국관광데이터랩 · 소상공인 상권정보</sub>
+</td>
+</tr>
+</table>
 
 <br>
 
