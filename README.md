@@ -63,8 +63,8 @@ KOSIS, 한국관광데이터랩, 소상공인 상권정보 등 공공데이터
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/sseungyeonn/subway-transfer-accessibility"><img src="assets/project-subway.svg" width="100%" alt="휠체어 이용자의 부산 도시철도 환승 거리 분석"/></a></td>
-<td width="50%"><a href="https://github.com/sseungyeonn/street-mixtape"><img src="assets/project-street.svg" width="100%" alt="스트릿 믹스테이프: 골목상권 활성화 기획과 AI 프로토타입"/></a></td>
+<td width="50%" align="center"><a href="https://github.com/sseungyeonn/subway-transfer-accessibility"><img src="assets/project-subway.svg" width="100%" alt="휠체어 이용자의 부산 도시철도 환승 거리 분석"/></a><br><sub>*이미지를 누르면 프로젝트로 이동합니다</sub></td>
+<td width="50%" align="center"><a href="https://github.com/sseungyeonn/street-mixtape"><img src="assets/project-street.svg" width="100%" alt="스트릿 믹스테이프: 골목상권 활성화 기획과 AI 프로토타입"/></a><br><sub>*이미지를 누르면 프로젝트로 이동합니다</sub></td>
 </tr>
 </table>
 
