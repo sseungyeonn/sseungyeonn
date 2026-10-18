@@ -10,7 +10,7 @@
 
 <br>
 
-## About me
+## 🙋‍♀️ About me
 
 ```python
 >>> seungyeon.info()
@@ -26,7 +26,7 @@ now          지난 분석을 Python으로 재현 · 검증하며 코드로 정�
 
 <br>
 
-## Skills & tools
+## 🛠️ Skills & tools
 
 <!-- 뱃지 색 바꾸기: 각 주소의 -3776AB? 처럼 이름 뒤 6자리 색상코드만 바꾸면 됩니다 -->
 <table>
@@ -62,7 +62,7 @@ now          지난 분석을 Python으로 재현 · 검증하며 코드로 정�
 
 <br>
 
-## Experience
+## 💼 Experience
 
 ### 국가데이터처 인구추계팀 청년인턴 &nbsp;<sub>`2026.03 – 2026.08`</sub>
 
@@ -79,13 +79,13 @@ now          지난 분석을 Python으로 재현 · 검증하며 코드로 정�
 
 <br>
 
-## Achievements
+## 🏆 Achievements
 
 <img src="assets/achievements.svg" width="100%" alt="2024.11 ADsP 취득, 2025.05 SQLD 취득, 2025 대학생 논문경진대회 최우수상, 2025.10 빅데이터분석기사 필기 합격, 2026 국가데이터처 청년인턴 프로젝트 금상과 연구회 단독 발표, 2026.11 빅데이터분석기사 실기 응시 예정"/>
 
 <br>
 
-## Projects
+## 📂 Projects
 
 <table>
 <tr>
