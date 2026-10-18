@@ -2,6 +2,7 @@
 
 <img src="assets/header.svg" width="100%" alt="최승연, 데이터 분석가. 공식과 평균이 말해주지 않는 것을 현장 데이터로 확인합니다."/>
 
+<a href="mailto:pink120312@gmail.com"><img src="https://img.shields.io/badge/pink120312@gmail.com-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 <a href="mailto:pink6919@naver.com"><img src="https://img.shields.io/badge/pink6919@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Naver Mail"/></a>
 <a href="tel:010-0000-0000"><img src="https://img.shields.io/badge/010--9927--1977-F97316?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"/></a>
 
