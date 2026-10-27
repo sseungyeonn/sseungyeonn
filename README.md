@@ -6,7 +6,7 @@
 
 <a href="mailto:pink120312@gmail.com"><img src="https://img.shields.io/badge/pink120312@gmail.com-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 <a href="mailto:pink6919@naver.com"><img src="https://img.shields.io/badge/pink6919@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Naver Mail"/></a>
-<a href="tel:010-0000-0000"><img src="https://img.shields.io/badge/010--9927--1977-F97316?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik02LjYyIDEwLjc5YTE1LjA1IDE1LjA1IDAgMCAwIDYuNTkgNi41OWwyLjItMi4yYTEgMSAwIDAgMSAxLjAyLS4yNGMxLjEyLjM3IDIuMzMuNTcgMy41Ny41N2ExIDEgMCAwIDEgMSAxVjIwYTEgMSAwIDAgMS0xIDFDMTAuNjEgMjEgMyAxMy4zOSAzIDRhMSAxIDAgMCAxIDEtMWgzLjVhMSAxIDAgMCAxIDEgMWMwIDEuMjUuMiAyLjQ1LjU3IDMuNTdhMSAxIDAgMCAxLS4yNSAxLjAybC0yLjIgMi4yeiIvPjwvc3ZnPg==" alt="Phone"/></a>
+<a href="tel:010-9927-1977"><img src="https://img.shields.io/badge/010--9927--1977-F97316?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik02LjYyIDEwLjc5YTE1LjA1IDE1LjA1IDAgMCAwIDYuNTkgNi41OWwyLjItMi4yYTEgMSAwIDAgMSAxLjAyLS4yNGMxLjEyLjM3IDIuMzMuNTcgMy41Ny41N2ExIDEgMCAwIDEgMSAxVjIwYTEgMSAwIDAgMS0xIDFDMTAuNjEgMjEgMyAxMy4zOSAzIDRhMSAxIDAgMCAxIDEtMWgzLjVhMSAxIDAgMCAxIDEgMWMwIDEuMjUuMiAyLjQ1LjU3IDMuNTdhMSAxIDAgMCAxLS4yNSAxLjAybC0yLjIgMi4yeiIvPjwvc3ZnPg==" alt="Phone"/></a>
 
 </div>
 
@@ -69,15 +69,15 @@ now          지난 분석을 Python으로 재현 · 검증하며 코드로 정�
 
 ### 국가데이터처 인구추계팀 청년인턴 &nbsp;<sub>`2026.03 – 2026.08`</sub>
 
-**AI 기반 인구추계 고도화 사업 (출생 · 사망 · 국제이동)** &nbsp; `R` `Python` `LSTM` `Transformer`
+**AI 기반 인구추계 고도화 사업 (출산 · 사망 · 국제이동)** &nbsp; `R` `Python` `LSTM` `Transformer`
 
 > 전년도에 처음 시작된 사업의 첫 인턴으로 투입. 담당자 변경으로 인해 **가이드 없이 전년도 보고서와 데이터만으로** 출발해야 하는 상황
 
 - **결과를 내는 데서 멈추지 않고 원리를 역추적** — 기존 코드를 그대로 실행하는 대신 원천 데이터 · 코드 · 최종 보고서를 처음부터 대조
-- **전년도 산출물의 불일치 발견** — 주석과 실제 코드가 다른 부분을 바로잡고, 보고서의 오류 발견: 공변량 18개로 적혀 있으나 실제 데이터에는 10개만 있음을 확인
-- **"공변량을 넣으면 정확도가 오른다"는 전제를 직접 검증** — 출생 5년 예측 RMSE가 공변량 미반영 모델 **0.070**로 반영 모델 **0.092**보다 낮았고, 사망도 공변량 반영 시 오차가 약 0.01 증가. 추가 변수가 오히려 노이즈로 작용할 수 있음을 수치로 확인
-- 오차 원인을 **공변량과 파라미터로 나눠 점검** — 국제이동이 공변량에 특히 민감하고, 출생은 코로나 시기(2020년)가 검증 구간에서 학습 구간으로 넘어가며 예측이 달라짐을 확인
-- 연령 구간 기준이 달라진 데이터를 다시 정제하고, 학습 · 검증 구간을 1년씩 옮겨 5년 · 10년 예측 기간을 확장 (출생 5년: 학습 1980–2020, 검증 2021–2025)
+- **전년도 산출물의 불일치 발견** — 주석과 실제 코드가 다른 부분을 바로잡고, 보고서와 실제 데이터의 불일치 발견: 보고서에는 공변량 18개로 정리돼 있으나 실제 데이터에는 10개만 있음을 확인
+- **"공변량을 넣으면 정확도가 오른다"는 전제를 직접 검증** — 출산 5년 예측 RMSE가 공변량 미반영 모델 **0.070**로 반영 모델 **0.092**보다 낮았고, 사망도 공변량 반영 시 오차가 약 0.01 증가. 추가 변수가 오히려 예측을 흐릴 수 있다는 가능성을 확인
+- 오차 원인을 **공변량과 파라미터로 나눠 점검** — 국제이동이 공변량에 특히 민감하고, 출산은 코로나 시기(2020년)가 검증 구간에서 학습 구간으로 넘어가며 예측이 달라짐을 확인
+- 연령 구간 기준이 달라진 데이터를 다시 정제하고, 학습 · 검증 구간을 1년씩 옮겨 5년 · 10년 예측 기간을 확장 (출산 5년: 학습 1980–2020, 검증 2021–2025)
 - 찾아낸 불일치와 수치로 검증한 모델 개선 방향을 부서 연구회에서 [**단독 발표 📎**](%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_%EB%B3%B4%EC%95%88.pdf)
 <br>
 
